@@ -1,0 +1,126 @@
+/* Question Styling */
+h1 {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color:whitesmoke;
+
+    width: 85%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+/* Answer choices Styling */
+li {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 0px;
+    width: 40%;
+    margin: 20px auto;
+    margin-top: 35px;
+    padding:5px;
+    
+}
+
+/* Hover Styling */
+li:hover{
+  background-color: #444444;
+}
+
+/* Body Styling */
+body {
+    background: #333333;
+    background-image: url("/Users/joshuaharnois/Desktop/UCF/Week-5/Homework-5/TriviaGame/assets/images/motherb.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* HTML tag height */
+html{
+  height: 100%;
+}
+
+/* Reset Button Styling */
+#resetButton{
+  width: 80px;
+  height: 40px;
+  border: 0px solid black;
+  color: black;
+  margin-top: 20px;
+  margin-left: 50%;
+  margin-right: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Timer Styling */
+#timerDisplay{
+  color:black;
+  background-color: white;
+  width: 100px;
+  height: auto;
+  font-size: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  display: block;
+  margin-top: 85px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+/* Time remaining warning */
+#timerDisplay.shortTime{
+  color:crimson;
+  font-size: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+
+}
+
+/* Winner Styling */
+.winner{
+  color:goldenrod;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Loser Styling */
+.loser{
+  color:red;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Wins Styling */
+.wins{
+  font-weight: 500;
+  color: goldenrod;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Lose Styling */
+.lose{
+  font-weight: 500;
+  color: red;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Unanswered Question Styling */
+.unAns{
+  font-weight: 500;
+  color:whitesmoke;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

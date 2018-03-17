@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer-Trivia</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <!-- Meyers Reset -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- Current Question to be appended by JavaScript -->
+  <h1 class="currentQuestion"></h1>
+  <br>
+<!-- Multiple Choices -->
+  <div class="row">
+    <ul class="answersUnOrderedList">
+      <li class="possibleAnswer"></li>
+      <li class="possibleAnswer"></li>
+      <li class="possibleAnswer"></li>
+      <li class="possibleAnswer"></li>
+    </ul>
+  </div>
+
+  <!-- Timer Section -->
+  <div class="row timer-row">
+    <div class="col-md-4">
+    </div>
+    <div id="timerDisplay" class="col-md-4"></div>
+    <div class="col-md-4">
+      <button id="resetButton" class="col-md-4 pull-left" text="Reset">Reset</button>
+    </div>
+  </div>
+  
+<!-- Results -->
+<div id=winLose></div>
+   <script type="text/javascript" src = "assets/javascript/app.js"></script>
+   
+</body>
+</html>
